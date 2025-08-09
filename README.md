@@ -32,6 +32,7 @@ chmod +x termux_banner.sh
    ```bash
    nano ~/.bashrc
    ```
+   - Paste the code below inside ~/.bashrc
 ```bash
 ~/termux_banner.sh
 alias clear='command clear && ~/termux_banner.sh'
