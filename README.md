@@ -22,20 +22,19 @@ git clone https://github.com/Cyb3rflex/termux-banner.git
 ```
 2. Navigate into the directory:
 ```bash
-cd termux_banner
-```
-- or if that doesn't work, try
-```bash
 cd termux-banner
 ```
 3. Make the script executable:
 ```bash
 chmod +x termux_banner.sh
 ```
-4. Add the following lines to your `~/.bashrc`:
+4. Add the following lines into your `~/.bashrc`:
+   ```bash
+   nano ~/.bashrc
+   ```
 ```bash
-~/termux-banner/termux_banner.sh
-alias clear='command clear && ~/termux-banner/termux_banner.sh'
+~/termux_banner.sh
+alias clear='command clear && ~/termux_banner.sh'
 alias c='clear'
 ```
 5. Reload your shell or restart Termux.
@@ -53,7 +52,7 @@ alias c='clear'
 
 - Open Termux or run:
 ```bash
-~/termux-banner/termux_banner.sh
+~/termux_banner.sh
 ```
 to see your banner.
 
